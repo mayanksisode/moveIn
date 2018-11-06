@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="FandH">#4989e9</color>
+    <color name="WP">#ff5733</color>
+    <color name="Stat">#c534b2</color>
+    <color name="Grocer">#439f76</color>
+    <color name="MS">#34bfc5</color>
+    <color name="wifi">#E74C3C</color>
+
+</resources>

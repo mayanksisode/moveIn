@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".LogandSign">
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="328dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/transparent">
+
+        <EditText
+            android:id="@+id/sufname"
+            android:layout_width="141dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/suemail"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/roundgray"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/sulname"
+            android:layout_width="141dp"
+            android:layout_height="36dp"
+            android:layout_alignEnd="@+id/suemail"
+            android:layout_alignTop="@+id/sufname"
+            android:background="@drawable/roundgrey2"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/suemail"
+            android:layout_width="282dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/rounder"
+            android:ems="10"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/supass"
+            android:layout_width="282dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="126dp"
+            android:background="@drawable/rounder"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/surepass"
+            android:layout_width="282dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="75dp"
+            android:background="@drawable/rounder"
+            android:ems="10"
+            android:hint="Re-enter Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="286dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="21dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="SIGN UP"
+            android:textColor="@color/colorTransparentWhite" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="73dp"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/pers" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

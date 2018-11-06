@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <TextView
+                android:id="@+id/THead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Heading"
+                android:textAppearance="@android:style/TextAppearance.WindowTitle"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/cardImg"
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorTransparentWhite"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/TDesc"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:paddingRight="1dp"
+                    android:text="TextView"
+                    android:textAlignment="gravity"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TDesc2"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:paddingRight="1dp"
+                    android:text="Descripton"
+                    android:textAlignment="gravity"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

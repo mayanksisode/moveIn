@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logandsign"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".LogandSign">
+
+
+    <Button
+        android:id="@+id/btlog"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_above="@+id/fragment"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="109dp"
+        android:background="@drawable/onesideround"
+        android:onClick="onClick"
+        android:text="Log In"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btsign"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btlog"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/roundgrey2"
+        android:onClick="onClick"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.mahas.movein.Login"
+        android:layout_width="match_parent"
+        android:layout_height="505dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

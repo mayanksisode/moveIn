@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "329712620134",
+    "firebase_url": "https://movein-a7afd.firebaseio.com",
+    "project_id": "movein-a7afd",
+    "storage_bucket": "movein-a7afd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329712620134:android:7a50a0c8f0da9da8",
+        "android_client_info": {
+          "package_name": "com.example.mahas.movein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329712620134-0dq7gkepgepnstlqap0sne8khr8prgd1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mahas.movein",
+            "certificate_hash": "4a52d9be7db6ad955aa0c2ab40c9c8d5d316ebaa"
+          }
+        },
+        {
+          "client_id": "329712620134-oa5s2a2u5pn5pc4opbt3baks53hg66i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLgEip6kTdZGVUN1N7BIrCSWF0KbqcJu0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329712620134-oa5s2a2u5pn5pc4opbt3baks53hg66i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
